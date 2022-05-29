@@ -1,0 +1,25 @@
+{
+  "name": "fepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no t,est specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahye-program/FEpractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dahye-program/FEpractice/issues"
+  },
+  "homepage": "https://github.com/dahye-program/FEpractice#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.16"
+  }
+}
