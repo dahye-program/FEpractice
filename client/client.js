@@ -21,5 +21,5 @@ loginBtn.addEventListener('click', async function(){
 })
 
 joinBtn.addEventListener('click', ()=>{
-  console.log('회원가입');
+  location.href = 'join.html'
 })
