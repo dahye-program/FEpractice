@@ -12,9 +12,11 @@ app.use(cors({
 }))
 
 app.post('/login', (req, res)=>{
-  console.log(req);
-  console.log(req.body.id);
-  console.log(req.body.pw);
+  // DB에 SELECT 쿼리문 날려서 받아온 값과 비교
+  if(req.body.id === 'dahye' && req.body.pw === '1234'){
+    return res.json('ok');
+  }
+  else return res.json('false');
 })
 
 const server = app.listen(5500, ()=>{
