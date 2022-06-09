@@ -18,6 +18,8 @@ loginBtn.addEventListener('click', async function(){
   }).then(res=>{
     console.log(res);
   })
+  loginId.value="";
+  loginPw.value="";
 })
 
 joinBtn.addEventListener('click', ()=>{

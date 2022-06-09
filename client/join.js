@@ -26,4 +26,8 @@ joinCheckBtn.addEventListener('click', async function(){
   }).then(res => {
     console.log(res);
   })
+  joinId.value="";
+  joinPw.value="";
+  joinName.value="";
+  joinDate.value="";
 })
